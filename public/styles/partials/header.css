@@ -1,0 +1,76 @@
+@media (max-width: 980px) {
+    /* Style the navigation menu */
+    #menu {
+        overflow: hidden;
+        background-color: var(--color-primary);
+        position: relative;
+    }
+  
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    #menu .options {
+        display: none;
+    }
+  
+    /* Style navigation menu links */
+    #menu a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    
+    /* Style the hamburger menu */
+    #menu a.icon {
+        background: var(--color-primary);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 2rem;
+    }
+    
+    /* Style the active link (or home/logo) */
+    .active {
+        color: var(--color-primary-lighter);
+    }
+}
+
+@media(min-width: 981px){
+    #menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--color-primary);
+        width: 100vw;
+    }
+}
+
+#logo a {
+    color: var(--color-title-in-primary);
+    font: 700 4.2rem Oswald;
+    text-decoration: none;
+    padding: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.options {
+    display: flex;
+}
+
+.options a {
+    color: var(--color-text-in-primary);
+    text-decoration: none;
+    font: 700 1.7rem Archivo;
+    padding: 3.7rem 1.6rem;
+    display: flex;
+}
+
+.options a:hover {
+    color: var(--color-primary-lighter);
+}
+
+a.icon {
+    display: none;
+}
