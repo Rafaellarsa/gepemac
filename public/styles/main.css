@@ -43,11 +43,15 @@ textarea {
 
 #container {
     width: 100vw;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 981px) {
     :root {
         font-size: 62.5%;
+    }
+
+    #container {
+        margin-top: 5rem;
     }
 }

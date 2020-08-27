@@ -37,3 +37,9 @@ p {
     justify-content: center;
     color: var(--color-primary-lighter);
 }
+
+@media(min-width: 981px){
+    #comission {
+        margin-top: 2rem;
+    }
+}
