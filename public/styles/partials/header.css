@@ -3,7 +3,7 @@
     #menu {
         overflow: hidden;
         background-color: var(--color-primary);
-        position: relative;
+        position: 100vw;
     }
   
     /* Hide the links inside the navigation menu (except for logo/home) */

@@ -1,57 +1,76 @@
 :root {
-    --color-background: #F0F0F7;
-    --color-primary-lighter: #3993DD;
-    --color-primary-light: #916BEA;
-    --color-primary: #003DA5;
-    --color-primary-dark: #774DD6;
-    --color-primary-darker: #6842c2;
-    --color-secondary: #04D361;
-    --color-secondary-dark: #04BF58;
-    --color-title-in-primary: #FFFFFF;
-    --color-text-in-primary: #FFFFFF;
-    --color-text-title: #003DA5;
-    --color-text-complement: #3993DD;
-    --color-text-base: #000000;
-    --color-line-in-white: #E6E6F0;
-    --color-input-background: #F8F8FC;
-    --color-button-text: #FFFFFF;
-    --color-box-base: #FFFFFF;
-    --color-box-footer: #FAFAFC;
-    --color-small-info: #C1BCCC;
-    font-size: 60%; /* controle das medidas rem */
+  /* --color-background: #F0F0F7; */
+  --color-background: #ffffff;
+  --color-primary-lighter: #3993dd;
+  --color-primary-light: #916bea;
+  --color-primary: #003da5;
+  --color-primary-dark: #774dd6;
+  --color-primary-darker: #6842c2;
+  --color-secondary: #04d361;
+  --color-secondary-dark: #04bf58;
+  --color-title-in-primary: #ffffff;
+  --color-text-in-primary: #ffffff;
+  --color-text-title: #003da5;
+  --color-text-complement: #3993dd;
+  --color-text-base: #000000;
+  --color-line-in-white: #e6e6f0;
+  --color-input-background: #f8f8fc;
+  --color-button-text: #ffffff;
+  --color-box-base: #ffffff;
+  --color-box-footer: #fafafc;
+  --color-small-info: #c1bccc;
+  font-size: 60%; /* controle das medidas rem */
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: var(--color-background);
-    width: 100vw;
+  background-color: var(--color-background);
+  width: 100vw;
+  min-height: 100vh;
 }
 
 body,
 input,
 button,
 textarea {
-    font: 500 1.6rem Poppins;
-    color: var(--color-text-base);
-    width: 100vw;
+  font: 500 1.6rem Poppins;
+  color: var(--color-text-base);
+  width: 100vw;
 }
 
 #container {
-    width: 100vw;
-    margin-top: 3rem;
+  width: 100vw;
+  /* margin-top: 3rem; */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}
+
+footer i {
+  font-style: normal;
+  color: var(--color-background);
+  margin-right: 0.5rem;
 }
 
 @media (min-width: 981px) {
-    :root {
-        font-size: 62.5%;
-    }
+  :root {
+    font-size: 62.5%;
+  }
 
-    #container {
-        margin-top: 5rem;
-    }
+  /* #container {
+    margin-top: 5rem;
+  } */
 }
