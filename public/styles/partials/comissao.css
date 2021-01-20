@@ -1,41 +1,45 @@
 #leader {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #comission {
-    margin-top: 2rem;
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  margin-top: 2rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .person {
-    width: 30rem;
-    margin-top: 2rem;
+  width: 30rem;
+  margin-top: 2rem;
 }
 
 img {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 strong {
-    display: flex;
-    justify-content: center;
-    color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  color: var(--color-primary);
 }
 
 p {
-    display: flex;
-    justify-content: center;
-    color: var(--color-primary-lighter);
+  display: flex;
+  justify-content: center;
+  color: var(--color-primary-lighter);
+}
+
+footer p {
+  color: var(--color-background);
 }
 
 /* @media(min-width: 981px){
