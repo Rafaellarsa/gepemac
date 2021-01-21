@@ -1,0 +1,23 @@
+#slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  width: 8rem;
+  height: 15rem;
+  font-size: 5rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+img {
+  max-height: 85vh;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,17 @@
 
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/partials/header.css">
-    
+    <link rel="stylesheet" href="./styles/partials/index.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/brands.min.css">
 
-    <script src="./scripts/menu.js"></script>
-
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Oswald:wght@700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Oswald:wght@700&amp;family=Poppins:wght@400;600&amp;display=swap"
+        rel="stylesheet">
 
 </head>
+
 <body>
     <div id="menu">
         <div id="logo">
@@ -36,7 +39,14 @@
     </div>
     <div id="container">
 
-
+        <div id="slider">
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <img class="destaques" src="./images/destaque_1.png" alt="">
+            <img class="destaques"
+                src="https://yata-apix-38899c62-368d-4217-b0d7-963a2febcff4.lss.locawebcorp.com.br/d80d9cae4bd947aeb86dedfc7ac6fd6d.png"
+                alt="">
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
 
     </div>
 
@@ -49,4 +59,8 @@
         </div>
     </footer>
 </body>
+
+<script src="./scripts/menu.js"></script>
+<script src="./scripts/slider.js"></script>
+
 </html>
