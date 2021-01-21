@@ -11,3 +11,18 @@ h2 {
 #container {
   text-align: center;
 }
+
+#form-lg {
+  display: none;
+}
+
+@media (min-width: 751px) {
+  #form-lg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #form-sm {
+    display: none;
+  }
+}
