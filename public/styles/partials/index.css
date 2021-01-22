@@ -21,3 +21,9 @@ button:focus {
 img {
   max-height: 85vh;
 }
+
+@media (max-width: 750px) {
+  img {
+    max-width: 80%;
+  }
+}
