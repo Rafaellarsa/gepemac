@@ -1,8 +1,9 @@
-#container {
+#container-pc,
+#container-mobile {
   margin-top: 2rem;
 }
 
-.mobile {
+#container-mobile {
   display: none;
   visibility: hidden;
   width: 0;
@@ -13,6 +14,10 @@
   display: flex;
   width: 80%;
   margin: auto;
+}
+
+.document-card:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 .card-left-column {
@@ -30,6 +35,7 @@ button {
   color: var(--color-background);
   border: none;
   padding: 1rem;
+  cursor: pointer;
 }
 
 .document-covers {
@@ -37,15 +43,16 @@ button {
 }
 
 @media (max-width: 750px) {
-  .pc {
+  #container-pc {
     display: none;
     visibility: hidden;
     width: 0;
     height: 0;
+    padding-bottom: 0;
   }
 
-  .mobile {
-    display: flex;
+  #container-mobile {
+    display: block;
     visibility: visible;
     width: 80%;
     height: auto;
@@ -72,7 +79,7 @@ button {
   }
 
   .info {
-    width: 63%;
+    width: calc(100% - 15rem);
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
