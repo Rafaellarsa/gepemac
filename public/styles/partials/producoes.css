@@ -3,6 +3,11 @@
   margin-top: 2rem;
 }
 
+#container-pc {
+  overflow-y: scroll;
+  max-height: calc(100vh - 117px);
+}
+
 #container-mobile {
   display: none;
   visibility: hidden;
@@ -14,10 +19,11 @@
   display: flex;
   width: 80%;
   margin: auto;
+  margin-bottom: 2rem;
 }
 
-.document-card:not(:last-child) {
-  margin-bottom: 2rem;
+.document-card:last-child {
+  margin-bottom: 3rem;
 }
 
 .card-left-column {
