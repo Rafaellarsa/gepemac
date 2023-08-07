@@ -3,6 +3,6 @@
   margin: auto;
 }
 
-p:not(:last-child) {
-  margin-bottom: 2rem;
+#container p {
+  margin-top: 2rem;
 }
